@@ -1,0 +1,22 @@
+.testimonials__grid {
+  padding: 0 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  overflow: hidden;
+}
+
+.testimonials__col {
+  display: grid;
+  gap: 30px;
+
+  &:nth-child(1) {
+    padding-top: 20px;
+  }
+  &:nth-child(2) {
+    padding-top: 100px;
+  }
+  &:nth-child(3) {
+    padding-top: 50px;
+  }
+}

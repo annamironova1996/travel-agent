@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Стартовый шаблон</title>
+    <link
+      rel="stylesheet"
+      href="./css/main.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./fonts/Rubik/stylesheet.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+    <div class="container">
+            <nav class="nav">
+                <a href="#!" class="logo">
+                    <img src="./../img/icons/logo.svg" alt="логотип">
+                </a>
+                <ul class="nav__list">
+                    <li><a href="#!" class="active">Главная</a></li>
+                    <li><a href="#!">О нас</a></li>
+                    <li><a href="#!">Путевки</a></li>
+                    <li><a href="#!">Вопросы</a></li>
+                    <li><a href="#!">Отзывы</a></li>
+                </ul>
+
+                <div class="nav__buttons">
+                    <a class="button-login" href="!#">Войти</a>
+                    <a class="button-registration" href="!#">Регистрация</a>
+                </div>
+            </nav>
+            </button>
+        </div>
+    </div>
+</header>
+<div class="mobile-nav">
+	<ul class="mobile-nav__list">
+		<li><a href="#" class="active">Home</a></li>
+		<li><a href="#!">Services</a></li>
+		<li><a href="#!">About</a></li>
+		<li><a href="#!">Projects</a></li>
+		<li><a href="#!">Contact</a></li>
+	</ul>
+</div>
+
+    <main>
+      <section class="discover">
+   <div class="container">
+        <div class="discover__grid">
+            <div class="discover__desc">
+                <div class="discover__title discover__title--decor">
+                    <p>Откройте для себя свое любимое место вместе с нами</p>
+                </div>
+                <div class="discover__text">
+                    <div class="text">
+                        <p>Ваше путешествие начинается здесь с наших тщательно подобранных
+                            впечатлений от путешествий. Откройте для себя новые горизонты, 
+                            создайте незабываемые воспоминания и исследуйте мир с помощью 
+                            наших профессионально составленных маршрутов.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="discover__form">
+                        <form action="" class="form">
+    <label class="form__label" >
+        <span>ЛОКАЦИЯ</span>
+        <input id="autoCompleteCountry" name="country" type="text" class="form__input" placeholder="Бали, Индонезия">
+
+    </label>
+    <div class="form__line"></div>
+    <label class="form__label" >
+        <span>ДАТА И ВРЕМЯ</span>
+        <input id="datePicker" name="date" type="date" class="form__input" placeholder="ММ/ДД/ГГГГ" autocomplete="off">
+
+    </label>
+    <button class="form__button">
+        <img src="./img/icons/discover-search.svg" alt="кнопка поиска">
+    </button>
+    
+</form>
+                    </div>
+                </div>
+            </div>
+            <div class="discover__picture">
+                <div class="discover__picture-hint">
+                    <div class="hint-discover">
+    <div class="hint-discover__picture">
+        <img src="./img/discover/coco-de-heaven.jpg" alt="Коко Дё Хивен Отель" >
+    </div>
+    <div class="hint-discover__desc">
+        <div class="hint-discover__title">
+            Коко Дё Хивен
+            <span class="hint-discover__rating">(4.5)</span>
+        </div>
+        <div class="hint-discover__price"><span class="muted">от </span>30 000 <i>руб.</i></div>
+    </div>
+
+</div>
+                </div>
+
+                <div class="discover__picture-scroll">
+                    <div class="scroll-down">
+    <img src="./img/discover/scroll-down-text.svg" alt="изображение для скролла" class="scroll-down__text">
+    <img src="./img/icons/switch.svg" alt="иконка для скролла" class="scroll-down__icons">
+</div>
+
+                </div>
+                
+
+                <img class="discover__picture-img" src="./img/discover/hero.png" alt="туристы">
+            </div>
+        </div>
+   </div>
+</section> <section class="partners">
+    <div class="container">
+        <div class="parters__wrapper">
+                <h2 class="partners__title">Наши партнеры</h2>
+            <div class="partners__content">
+                <img src="./img/partners/traveloka-logo.svg" alt="логотип компании Traveloka">
+                <img src="./img/partners/airbnb-logo.svg" alt="логотип компании AirBnb">
+                <img src="./img/partners/expedia-logo.svg" alt="логотип компании Expedia">
+                <img src="./img/partners/skyscanner-logo.svg" alt="логотип компании SkyScanner">
+                <img src="./img/partners/american-airlines-logo.svg" alt="логотип компании American Airlines">
+            </div>
+        </div>
+    </div>
+</section>
+      <section class="popular">
+  <div class="container">
+    <div class="popular__top">
+      <div class="popular__title">
+        <h2 class="title-1">Популярные места</h2>
+        <div class="text">
+          <p>Посмотрите наши популярные места, которые выбирают наши клиенты</p>
+        </div>
+      </div>
+      <div class="popular__controls">
+        <button id="sliderPrev">
+          <img
+            src="./img/icons/arrow-prev.svg"
+            alt="кнока назад"
+          />
+        </button>
+        <button id="sliderNext">
+          <img
+            src="./img/icons/arrow-next.svg"
+            alt="кнока назад"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="container-right">
+    <div class="popular__slider"><div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><div class="card">
+  <div class="card__img">
+    <img
+      src="./img/popular/venice.svg"
+      alt="Венеция, Италия"
+    />
+  </div>
+
+  <div class="card__title-wrapper">
+    <h3 class="card__title">Венеция, Италия</h3>
+    <div class="card__rating">(4,5)</div>
+  </div>
+  <div class="card__price">
+    <span class="muted">от</span> 70 000 <i>руб.</i>
+  </div>
+</div>
+</div>
+    <div class="swiper-slide"><div class="card">
+  <div class="card__img">
+    <img
+      src="./img/popular/venice.svg"
+      alt="Венеция, Италия"
+    />
+  </div>
+
+  <div class="card__title-wrapper">
+    <h3 class="card__title">Венеция, Италия</h3>
+    <div class="card__rating">(4,5)</div>
+  </div>
+  <div class="card__price">
+    <span class="muted">от</span> 70 000 <i>руб.</i>
+  </div>
+</div>
+</div>
+    <div class="swiper-slide"><div class="card">
+  <div class="card__img">
+    <img
+      src="./img/popular/venice.svg"
+      alt="Венеция, Италия"
+    />
+  </div>
+
+  <div class="card__title-wrapper">
+    <h3 class="card__title">Венеция, Италия</h3>
+    <div class="card__rating">(4,5)</div>
+  </div>
+  <div class="card__price">
+    <span class="muted">от</span> 70 000 <i>руб.</i>
+  </div>
+</div>
+</div>
+    <div class="swiper-slide"><div class="card">
+  <div class="card__img">
+    <img
+      src="./img/popular/venice.svg"
+      alt="Венеция, Италия"
+    />
+  </div>
+
+  <div class="card__title-wrapper">
+    <h3 class="card__title">Венеция, Италия</h3>
+    <div class="card__rating">(4,5)</div>
+  </div>
+  <div class="card__price">
+    <span class="muted">от</span> 70 000 <i>руб.</i>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</div>
+  </div>
+</section>
+ <section class="testimonials">
+  <div class="container">
+    <div class="testimonials__grid">
+      <div class="testimonials__col">
+        <div class="testimonial-card">
+  <img
+    src="./img/icons/five-stars.svg"
+    alt="пять звезд"
+  />
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus pariatur
+    consectetur totam laborum! Officia, tempore! Obcaecati repellat soluta natus
+    at similique distinctio culpa molestiae, architecto autem, porro, sit iste?
+    Exercitationem.
+  </p>
+  <div class="testimonial-card__autor">
+    <div class="testimonial-card__autor-img">
+      <img
+        src="./img/testimonials/01.svg"
+        alt="автор отзыва"
+      />
+    </div>
+    <div class="testimonial-card__autor-title">
+      <h4 class="testimonial-card__autor-name">Николай Ефремов</h4>
+      <p>Что-то</p>
+    </div>
+  </div>
+</div>
+
+        <div class="testimonial-card">
+  <img
+    src="./img/icons/five-stars.svg"
+    alt="пять звезд"
+  />
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus pariatur
+    consectetur totam laborum! Officia, tempore! Obcaecati repellat soluta natus
+    at similique distinctio culpa molestiae, architecto autem, porro, sit iste?
+    Exercitationem.
+  </p>
+  <div class="testimonial-card__autor">
+    <div class="testimonial-card__autor-img">
+      <img
+        src="./img/testimonials/01.svg"
+        alt="автор отзыва"
+      />
+    </div>
+    <div class="testimonial-card__autor-title">
+      <h4 class="testimonial-card__autor-name">Николай Ефремов</h4>
+      <p>Что-то</p>
+    </div>
+  </div>
+</div>
+
+        <div class="testimonial-card">
+  <img
+    src="./img/icons/five-stars.svg"
+    alt="пять звезд"
+  />
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus pariatur
+    consectetur totam laborum! Officia, tempore! Obcaecati repellat soluta natus
+    at similique distinctio culpa molestiae, architecto autem, porro, sit iste?
+    Exercitationem.
+  </p>
+  <div class="testimonial-card__autor">
+    <div class="testimonial-card__autor-img">
+      <img
+        src="./img/testimonials/01.svg"
+        alt="автор отзыва"
+      />
+    </div>
+    <div class="testimonial-card__autor-title">
+      <h4 class="testimonial-card__autor-name">Николай Ефремов</h4>
+      <p>Что-то</p>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <div class="testimonials__col">
+        <div class="testimonial-card">
+  <img
+    src="./img/icons/five-stars.svg"
+    alt="пять звезд"
+  />
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus pariatur
+    consectetur totam laborum! Officia, tempore! Obcaecati repellat soluta natus
+    at similique distinctio culpa molestiae, architecto autem, porro, sit iste?
+    Exercitationem.
+  </p>
+  <div class="testimonial-card__autor">
+    <div class="testimonial-card__autor-img">
+      <img
+        src="./img/testimonials/01.svg"
+        alt="автор отзыва"
+      />
+    </div>
+    <div class="testimonial-card__autor-title">
+      <h4 class="testimonial-card__autor-name">Николай Ефремов</h4>
+      <p>Что-то</p>
+    </div>
+  </div>
+</div>
+
+        <div class="testimonial-card">
+  <img
+    src="./img/icons/five-stars.svg"
+    alt="пять звезд"
+  />
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus pariatur
+    consectetur totam laborum! Officia, tempore! Obcaecati repellat soluta natus
+    at similique distinctio culpa molestiae, architecto autem, porro, sit iste?
+    Exercitationem.
+  </p>
+  <div class="testimonial-card__autor">
+    <div class="testimonial-card__autor-img">
+      <img
+        src="./img/testimonials/01.svg"
+        alt="автор отзыва"
+      />
+    </div>
+    <div class="testimonial-card__autor-title">
+      <h4 class="testimonial-card__autor-name">Николай Ефремов</h4>
+      <p>Что-то</p>
+    </div>
+  </div>
+</div>
+
+        <div class="testimonial-card">
+  <img
+    src="./img/icons/five-stars.svg"
+    alt="пять звезд"
+  />
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus pariatur
+    consectetur totam laborum! Officia, tempore! Obcaecati repellat soluta natus
+    at similique distinctio culpa molestiae, architecto autem, porro, sit iste?
+    Exercitationem.
+  </p>
+  <div class="testimonial-card__autor">
+    <div class="testimonial-card__autor-img">
+      <img
+        src="./img/testimonials/01.svg"
+        alt="автор отзыва"
+      />
+    </div>
+    <div class="testimonial-card__autor-title">
+      <h4 class="testimonial-card__autor-name">Николай Ефремов</h4>
+      <p>Что-то</p>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <div class="testimonials__col">
+        <div class="testimonial-card">
+  <img
+    src="./img/icons/five-stars.svg"
+    alt="пять звезд"
+  />
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus pariatur
+    consectetur totam laborum! Officia, tempore! Obcaecati repellat soluta natus
+    at similique distinctio culpa molestiae, architecto autem, porro, sit iste?
+    Exercitationem.
+  </p>
+  <div class="testimonial-card__autor">
+    <div class="testimonial-card__autor-img">
+      <img
+        src="./img/testimonials/01.svg"
+        alt="автор отзыва"
+      />
+    </div>
+    <div class="testimonial-card__autor-title">
+      <h4 class="testimonial-card__autor-name">Николай Ефремов</h4>
+      <p>Что-то</p>
+    </div>
+  </div>
+</div>
+
+        <div class="testimonial-card">
+  <img
+    src="./img/icons/five-stars.svg"
+    alt="пять звезд"
+  />
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus pariatur
+    consectetur totam laborum! Officia, tempore! Obcaecati repellat soluta natus
+    at similique distinctio culpa molestiae, architecto autem, porro, sit iste?
+    Exercitationem.
+  </p>
+  <div class="testimonial-card__autor">
+    <div class="testimonial-card__autor-img">
+      <img
+        src="./img/testimonials/01.svg"
+        alt="автор отзыва"
+      />
+    </div>
+    <div class="testimonial-card__autor-title">
+      <h4 class="testimonial-card__autor-name">Николай Ефремов</h4>
+      <p>Что-то</p>
+    </div>
+  </div>
+</div>
+
+        <div class="testimonial-card">
+  <img
+    src="./img/icons/five-stars.svg"
+    alt="пять звезд"
+  />
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus pariatur
+    consectetur totam laborum! Officia, tempore! Obcaecati repellat soluta natus
+    at similique distinctio culpa molestiae, architecto autem, porro, sit iste?
+    Exercitationem.
+  </p>
+  <div class="testimonial-card__autor">
+    <div class="testimonial-card__autor-img">
+      <img
+        src="./img/testimonials/01.svg"
+        alt="автор отзыва"
+      />
+    </div>
+    <div class="testimonial-card__autor-title">
+      <h4 class="testimonial-card__autor-name">Николай Ефремов</h4>
+      <p>Что-то</p>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="subscribe">
+  <div class="container">
+    <div class="subscribe__row">
+      <div class="subscribe__desc">
+        <h4 class="subscribe__title">
+          Подпишитесь на нашу рассылку, чтобы следить за новостями
+        </h4>
+        <p>Оставайтесь на связи с нашим брендом</p>
+      </div>
+
+      <form
+        action=""
+        class="subscribe-form"
+      >
+        <label
+          for="email"
+          class="visually-hidden"
+          >Введите свою почту</label
+        >
+        <input
+          id="email"
+          class="subscribe-form__input"
+          placeholder="Введите свою почту"
+          autocomplete="false"
+        />
+        <button class="subscribe-form__button">Подписаться</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+	<div class="container">
+		<h2>Footer</h2>
+	</div>
+</footer>
+
+    <script src="./js/index.bundle.js"></script>
+  </body>
+</html>

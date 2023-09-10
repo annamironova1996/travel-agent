@@ -1,0 +1,28 @@
+.popular {
+    padding: 60px 0;
+}
+
+.popular__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 32px;
+}
+
+.popular__title {
+    display: grid;
+    gap: 16px;
+}
+.popular__slider {
+}
+
+.popular__controls{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    
+        
+         
+}

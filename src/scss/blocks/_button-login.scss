@@ -1,0 +1,30 @@
+.button-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+    
+    padding: 8px 20px;
+    background: #fff;
+
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #B7B7B7;
+
+    color: #454545;
+    font-size: 16px;
+    font-weight: 450;
+
+    transition: background-color 0.2s ease-in, color 0.2s ease-in, opacity 0.2s;
+}
+
+.button-login:hover, .button:focus {
+    opacity: 0.9;
+}
+
+.button-login:active {
+    
+}
