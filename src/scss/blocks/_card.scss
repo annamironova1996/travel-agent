@@ -1,5 +1,10 @@
 .card {
   max-width: 304px;
+
+  @include mediaMobileL {
+    max-width: 100%;
+    padding-right: 10px;
+  }
 }
 .card__img {
   overflow: hidden;
@@ -20,6 +25,10 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 150%;
+
+  @include mediaLaptop {
+    font-size: 16px;
+  }
 }
 .card__rating {
   display: flex;

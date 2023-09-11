@@ -1,9 +1,17 @@
 .subscribe-form {
   display: flex;
   gap: 12px;
+
+  min-width: 400px;
+
+  @include mediaLaptopL {
+    flex-direction: column;
+  }
+  @include mediaMobileL {
+    min-width: 290px;
+  }
 }
-.visually-hidden {
-}
+
 .subscribe-form__input {
   display: flex;
   padding: 12px;

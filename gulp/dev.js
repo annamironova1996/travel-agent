@@ -35,7 +35,7 @@ gulp.task("clean:dev", function (done) {
 
 gulp.task("html:dev", function () {
   return gulp
-    .src(["./src/html/**/*.html", "!./src/html/blocks/*.html"])
+    .src(["./src/html/**/*.html", "!./src/html/blocks/**/*.html"])
     .pipe(changed("./build/", { hasChanged: changed.compareContents }))
     .pipe(
       plumber({
@@ -130,7 +130,7 @@ gulp.task("server:dev", function () {
 
 gulp.task("watch:dev", function () {
   gulp.watch("./src/scss/**/*.scss", gulp.parallel("sass:dev"));
-  gulp.watch("./src/**/*.html", gulp.parallel("html:dev"));
+  gulp.watch("./src/**/*.*", gulp.parallel("html:dev"));
   gulp.watch("./src/img/**/*", gulp.parallel("images:dev"));
   gulp.watch("./src/fonts/**/*", gulp.parallel("fonts:dev"));
   gulp.watch("./src/files/**/*", gulp.parallel("files:dev"));

@@ -1,24 +1,32 @@
-<div class="testimonial-card">
-  <img
-    src="./img/icons/five-stars.svg"
-    alt="пять звезд"
-  />
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus pariatur
-    consectetur totam laborum! Officia, tempore! Obcaecati repellat soluta natus
-    at similique distinctio culpa molestiae, architecto autem, porro, sit iste?
-    Exercitationem.
-  </p>
-  <div class="testimonial-card__autor">
-    <div class="testimonial-card__autor-img">
+<div class="swiper-slide">
+  <div class="testimonial-card">
+    <div class="testimonials__rating">
+      @@for( let i = 0; i < context.stars; i++) {
       <img
-        src="./img/testimonials/01.svg"
-        alt="автор отзыва"
+        src="./img/icons/star.svg"
+        alt="активная звезда"
       />
+      } @@if( context.stars < 5) { @@for ( let i = 0; i < 5 - context.stars;
+      i++) {
+      <img
+        src="./img/icons/off-star.svg"
+        alt="активная звезда"
+      />
+      } }
     </div>
-    <div class="testimonial-card__autor-title">
-      <h4 class="testimonial-card__autor-name">Николай Ефремов</h4>
-      <p>Что-то</p>
+
+    <p>@@text</p>
+    <div class="testimonial-card__autor">
+      <div class="testimonial-card__autor-img">
+        <img
+          src="./img/testimonials/@@img"
+          alt="автор отзыва"
+        />
+      </div>
+      <div class="testimonial-card__autor-title">
+        <h4 class="testimonial-card__autor-name">@@name</h4>
+        <p>@@role</p>
+      </div>
     </div>
   </div>
 </div>

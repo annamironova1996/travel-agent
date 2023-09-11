@@ -1,20 +1,20 @@
 :root {
-	--container-width: 1230px;
-	--container-padding: 15px;
+  --container-width: 1230px;
+  --container-padding: 15px;
 
-	--font-main: 'Rubik', sans-serif;
+  --font-main: "Rubik", sans-serif;
 
-	--page-bg: #fff;
-	--text-color: #181818;;
-	--accent: #35AFF4;
-	--text-muted: #909090;
+  --page-bg: #fff;
+  --text-color: #181818;
+  --accent: #35aff4;
+  --text-muted: #6d6c6c;
 
-    --laptop-size: 1199px;
-	--tablet-size: 959px;
-	--mobile-size: 599px;
+  /*  --laptop-size: ; */
+
+  /* --mobile-size: 599px; */
 }
 
-.dark {
-    --page-bg: #252526;
-    --text-color: #fff;
-}
+/* .dark {
+  --page-bg: #252526;
+  --text-color: #fff;
+} */

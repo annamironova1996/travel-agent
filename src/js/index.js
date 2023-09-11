@@ -1,22 +1,16 @@
-import Swiper from "swiper";
-import { Navigation } from "swiper/modules";
-import "swiper/css";
+import mobileNav from "./modules/mobile-nav.js";
+mobileNav();
 
-const swiper = new Swiper(".swiper", {
-  modules: [Navigation],
-  navigation: {
-    nextEl: "#sliderNext",
-    prevEl: "#sliderPrev",
-  },
-  slidesPerView: 4,
-  spaceBetween: 30,
-});
+import "./modules/testimonialsSwiper";
 
-/* import datePicker from "./modules/datePicker";
+import scrollRevealFunc from "./modules/scrollReveal";
+scrollRevealFunc();
+
+import swiperFunc from "./modules/swiper";
+swiperFunc();
+
+import datePicker from "./modules/datePicker";
 datePicker();
 
 import autoCompleteFunction from "./modules/autoComplete";
-autoCompleteFunction(); */
-
-/* import mobileNav from './modules/mobile-nav.js';
-mobileNav(); */
+autoCompleteFunction();

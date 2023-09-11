@@ -1,0 +1,44 @@
+[
+  {
+    "img": "venice.svg",
+    "title": "Венеция, Италия",
+    "rating": "4.7",
+    "price": "70 000"
+  },
+  {
+    "img": "bali.svg",
+    "title": "Бали, Индонезия",
+    "rating": "4.2",
+    "price": "55 000"
+  },
+  {
+    "img": "bangkok.svg",
+    "title": "Бангког, Тайланд",
+    "rating": "4.6",
+    "price": "50 000"
+  },
+  {
+    "img": "santorini.svg",
+    "title": "Санторини, Греция",
+    "rating": "4.9",
+    "price": "90 000"
+  },
+  {
+    "img": "paris.svg",
+    "title": "Париж, Франция",
+    "rating": "4.9",
+    "price": "100 000"
+  },
+  {
+    "img": "new-york.svg",
+    "title": "Нью-Йорк, США",
+    "rating": "4.1",
+    "price": "50 000"
+  },
+  {
+    "img": "dubai.svg",
+    "title": "Дубай, ЮАР",
+    "rating": "5.0",
+    "price": "200 000"
+  }
+]

@@ -1,9 +1,11 @@
 .testimonial-card {
   max-width: 378px;
+  min-height: 415px;
   display: flex;
   padding: 32px;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: space-between;
   gap: 32px;
   border-radius: 8px;
   box-shadow: 0px 4px 10px 0px rgba(23, 28, 31, 0.23);
@@ -14,6 +16,16 @@
     font-weight: 350;
     line-height: 150%;
   }
+
+  @include mediaLaptop {
+    max-width: 300px;
+    padding: 20px;
+  }
+}
+
+.testimonials__rating {
+  display: flex;
+  gap: 4px;
 }
 .testimonial-card__autor {
   display: flex;
